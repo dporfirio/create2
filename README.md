@@ -17,6 +17,7 @@ git clone https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
 git clone -b melodic https://github.com/AutonomyLab/create_robot.git
 git clone https://github.com/AutonomyLab/libcreate.git
 git clone https://github.com/dporfirio/create2.git
+git clone https://github.com/dporfirio/TabulaSynthesizer.git
 
 cd ../
 catkin build  # do not run catkin make
