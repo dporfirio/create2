@@ -18,6 +18,7 @@ git clone -b melodic https://github.com/AutonomyLab/create_robot.git
 git clone https://github.com/AutonomyLab/libcreate.git
 git clone https://github.com/dporfirio/create2.git
 git clone https://github.com/dporfirio/TabulaSynthesizer.git
+git clone https://github.com/ros-drivers/joystick_drivers.git
 
 cd ../
 catkin build  # do not run catkin make
@@ -31,5 +32,6 @@ Lastly, open `robot_ctrl/config/params.yaml` and set the `ROS_IP` param to the l
 ## Running
 
 ```
+roslaunch mapping_bringup slam.launch
 roslaunch robot_ctrl ctrl.launch
 ```
